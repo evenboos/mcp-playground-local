@@ -18,21 +18,17 @@ models: #关联模型
 # deployspec:
 #   entry_file: app.py
 license: Apache License 2.0
+
+Original Link: https://www.modelscope.cn/studios/Coloring/mcp-playground.git
 ---
 
-#### Clone with HTTP
-
-```bash
- git clone https://www.modelscope.cn/studios/Coloring/mcp-playground.git
-```
-
-# MCP Playground
+# MCP Playground for localhost(mcp client、 mcp server and local llm)
 
 MCP Playground是一个实验性项目，用于测试和展示MCP（Model Context Protocol）工具的能力。
 
 ## 功能特点
 
-- 集成多种MCP工具：Memory、Doc-Tool和Filesystem
+- 集成本地部署的基于sse的MCP工具
 - 支持本地部署的LLM模型
 - 用户友好的界面，便于交互和测试
 
@@ -74,20 +70,11 @@ python app.py
 1. 在UI界面中选择"Qwen2.5-14B-Instruct (本地)"模型选项以使用本地部署的LLM
 2. 点击输入框左侧的工具图标来选择要使用的MCP工具
 3. 根据示例提示进行交互，例如：
-   - Memory工具: "记住我的生日是12月15日"
-   - Doc-Tool工具: "检测这张图片中有哪些物体"
-   - Filesystem工具: "列出桌面上的所有文件"
+   - YOLO-Tool工具: "检测这张图片中有哪些物体"
 
 ## MCP工具说明
 
-### Memory工具
-
-用于存储和检索信息，可以记住对话内容，并在以后的对话中引用。
-
-### Doc-Tool工具
+### YOLO-Tool工具
 
 用于对图像进行分析，包括对象检测、分割和姿态估计等。
 
-### Filesystem工具
-
-用于访问和操作文件系统，可以列出文件、读取文件内容和搜索文件等。
