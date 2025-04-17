@@ -176,6 +176,8 @@ cython_debug/
 # 忽略特定文件类型
 # 移除了对PNG、JPG、JPEG和MD文件的忽略
 *.txt
+!requirements.txt
+!README.md
 
 # Python相关
 __pycache__/
