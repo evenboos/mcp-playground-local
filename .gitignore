@@ -174,10 +174,7 @@ cython_debug/
 .pypirc
 
 # 忽略特定文件类型
-*.png
-*.jpg
-*.jpeg
-*.md
+# 移除了对PNG、JPG、JPEG和MD文件的忽略
 *.txt
 
 # Python相关
