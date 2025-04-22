@@ -1,13 +1,20 @@
 # MCP Playground for localhost(mcp client、 mcp server and local llm)
 
+本仓库存储了本地部署llm（openai格式的apikey）的mcp-client方案
+如需使用基于深度学习的计算机视觉模型mcp-server
+请前往 https://github.com/MRonaldo-gif/mcp-server-cvdlt
+
 MCP Playground是一个实验性项目，用于测试和展示MCP（Model Context Protocol）工具的能力。
 Original Link: https://www.modelscope.cn/studios/Coloring/mcp-playground.git
 
+![样式图](./assets/demo.png)
+![detect样式图](./assets/detect_demo.png)
 ## 功能特点
 
 - 集成本地部署的基于sse的MCP工具
 - 支持本地部署的LLM模型
 - 用户友好的界面，便于交互和测试
+- 支持cvdlt https://github.com/MRonaldo-gif/mcp-server-cvdlt
 
 ## 配置说明
 
