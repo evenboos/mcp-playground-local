@@ -37,6 +37,10 @@ bot_avatars = {
     os.path.join(os.path.dirname(__file__), "./assets/deepseek.png"),
     "local/Qwen2.5-14B-Instruct":
     os.path.join(os.path.dirname(__file__), "./assets/qwen.png"),
+    "local/Qwen3-14B":
+    os.path.join(os.path.dirname(__file__), "./assets/qwen.png"),
+    "local/Qwen3-32B":
+    os.path.join(os.path.dirname(__file__), "./assets/qwen.png"),
 }
 
 mcp_prompt_model = "Qwen/Qwen2.5-72B-Instruct"
@@ -63,6 +67,14 @@ model_options = [
         "value": "Qwen/QwQ-32B",
         "thought": True
     },
+    {
+        "label": "Qwen3-14B (本地)",
+        "value": "local/Qwen3-14B",
+    },
+    {
+        "label": "Qwen3-32B (本地)",
+        "value": "local/Qwen3-32B",
+    }
 ]
 
 primary_color = "#816DF8"

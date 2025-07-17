@@ -4,6 +4,6 @@ langchain
 langchain-openai
 langchain_core
 langgraph
-langchain_mcp_adapters
+langchain_mcp_adapters == 0.0.10
 mcp
 exceptiongroup
